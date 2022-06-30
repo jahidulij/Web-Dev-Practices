@@ -1,0 +1,50 @@
+
+.myinput {
+    width: 100%;
+    margin: 5px;
+    padding: 8px 6px;
+    border: 2px solid greenyellow;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+form {
+    /* background: url("Images/night.avif") no-repeat center center/cover; */
+    background-color: green;
+    width: 90%;
+    height: 510px;
+    margin: auto;
+}
+table {
+    height: 400px;
+    margin: auto;
+}
+.radio1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: white;
+    text-align: center;
+    background-color: rgb(38, 104, 38);
+    padding: 5px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    color: blackwhite;
+    background-color: yellowgreen;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 1px;
+}
+.btn2 {
+    padding: 10px 20px;
+}
+
+#btn1:hover {
+    background-color: red;
+}

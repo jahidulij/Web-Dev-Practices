@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Intro </title>
+</head>
+<style>
+    p{
+        color: blueviolet;
+        /* background-color: antiquewhite; */
+    }
+
+    .mypara{
+        color: green;
+    }
+
+    .play_with_css{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+        font-style: italic;
+        color: yellowgreen;
+        /* border-style: solid;
+        border-color: black;
+        border-width: 3px; */
+        border: solid black 5px;
+        height: 250px;
+        width: 40%;
+        /* background-color: rgb(39 35 21); */
+        background-image: url(/Images/night.avif);
+    }
+
+    #para1{
+        color: blue;
+    }
+
+    .person{
+        border: 2px solid red;
+        background-color: rgb(168, 181, 193);
+        padding: 0.7%;
+        margin: 20px 10px 20px 10px;
+    }
+
+</style>
+
+<body>
+
+    <h1 class="mypara">This heading will be colored after class color</h1>
+    <p>This is paragraph it will be colored either default black or according to css color applied for paragraph</p>
+    <p style="color: red;">This is paragraph 2 inline color applied</p>
+    <p id="para1">This is paragraph with id in it</p>
+    <p class="mypara">This is paragraph created with class in it. Color will be what we provide in the stype for this class</p>
+    <p class="mypara">This is another paragraph which having the same class as the previous</p>
+    <p class="play_with_css">Playing with fonts</p>
+    <p class="person">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex amet deleniti 
+        provident ducimus dolorum iste, earum repellendus corrupti quos officia praesentium magnam animi 
+        illo accusantium quisquam, minima, ab facere.
+    </p>
+    <p class="person">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex amet deleniti 
+        provident ducimus dolorum iste, earum repellendus corrupti quos officia praesentium magnam animi 
+        illo accusantium quisquam, minima, ab facere.
+    </p>
+
+</body>
+</html>

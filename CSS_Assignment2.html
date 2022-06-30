@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 2</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar {
+        /* border: 2px solid red; */
+        background-color: rgb(97, 189, 97);
+        border-radius: 3px;
+        padding: -100px -100px;
+    }
+    .navbar li {
+        list-style: none;
+        display: inline-block;
+        margin: 20px;
+    }
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    }
+
+    .head {
+        position: relative;
+        left: 500px;
+        border-radius: 3px;
+        margin-bottom: 25px;
+
+    }
+
+    .table1 {
+        position: relative;
+        left: 360px;
+        text-align: center;
+    }
+    .thead {
+        color: white;
+        background-color: green;
+    }
+    .tr {
+        color: green;
+    }
+    
+</style>
+<body>
+    
+    <div class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact Us</a></li>
+    </div>
+    <br>
+    <div class="head">
+        <h2>Assignment 2 - Table</h2>
+    </div>
+   
+
+   <div class="table1">
+    <table border="2", width="500">
+        
+        <thead class="thead">
+            <th> No. </th>
+            <th> Name </th>
+            <th> Founder </th>
+            <th> Salary </th>
+        </thead>
+        
+        <tbody height="250">
+            <tr>
+                <td> 1 </td>
+                <td> Bill Gates </td>
+                <td> Microsoft </td>
+                <td> $500k </td>
+            </tr>
+    
+            <tr>
+                <td> 2 </td>
+                <td> Steve Jobs </td>
+                <td> Apple </td>
+                <td> $600k </td>
+            </tr>
+    
+            <tr class="tr">
+                <td> <strong> 3 </strong> </td>
+                <td> <strong> Larry Page </strong> </td>
+                <td> <strong> Google </strong> </td>
+                <td> <strong> $700k </strong> </td>
+            </tr>
+    
+            <tr>
+                <td> 4 </td>
+                <td> Mark Zuckerburg </td>
+                <td> Facebook </td>
+                <td> $500k </td>
+            </tr>
+    
+        </tbody>
+    
+    </table>
+   </div>
+   
+
+</body>
+</html>

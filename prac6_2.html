@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Validator</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="script.js"></script>
+</head>
+<style>
+    .validation {
+        color: red;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+<body>
+
+    <form action="" style="margin: 10px;">
+        <h2> Submit Your Query Below </h2>
+        <table width="500">
+
+            <tr>
+                <td><label for=""> Name
+                    <td> 
+                        <input type="text" required class="myinput" id="fname" aria-label="Enter your name"></td>
+                        
+                </label></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><span class="validation" id="fname_msg"></span></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" required class="myinput" id="email" aria-label="Enter your email"> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span class="validation" id="email_msg"></span></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Password</label></td> 
+                <td><input type="password" required class="myinput" id="password" aria-label="Enter your password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span class="validation" id="password_msg"></span></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Date</label></td>
+                <td><input type="datetime-local" class="myinput"  aria-label="Enter date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Agree Terms & Conditions</label></td>
+                <td><input type="checkbox" required  aria-label="Agree Terms & Conditions Checkbox"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td class="radio1">
+                    <input type="radio" aria-label="radio button Male">Male
+                    <input type="radio" aria-label="radio button Female">Female
+                    <input type="radio" aria-label="radio button Other">Other
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Country</label></td>
+                <td>
+                    <select class="myinput" aria-label="Select Country from dropdown">
+                        <option value="">Select Country</option>
+                        <option value="Canada">Canada</option>
+                        <option value="England">England</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="button" value="Submit" class="btn" onclick="Validation()"> &nbsp;
+                    <input type="button" value="Reset" class="btn btn2">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
